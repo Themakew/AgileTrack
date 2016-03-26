@@ -10,7 +10,7 @@ dataSource:
     pooled: true
     jmxExport: true
     url: jdbc:mysql://localhost:3306/agiletrack
-    driverClassName: com.mysql.jdbc.Drive
+    driverClassName: com.mysql.jdbc.Driver
     username: root
     password:
 
