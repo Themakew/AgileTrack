@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="agiletrack.TaskSpec" tests="1" skipped="0" failures="1" errors="0" timestamp="2016-03-26T20:20:59" hostname="ubuntu" time="0.152">
+  <properties/>
+  <testcase name="test something" classname="agiletrack.TaskSpec" time="0.152">
+    <failure message="Condition not satisfied:&#10;&#10;true == false&#10;     |&#10;     false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+true == false
+     |
+     false
+
+	at agiletrack.TaskSpec.test something(TaskSpec.groovy:20)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

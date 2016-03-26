@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="agiletrack.SprintControllerSpec" tests="7" skipped="0" failures="5" errors="0" timestamp="2016-03-26T20:20:58" hostname="ubuntu" time="0.487">
+  <properties/>
+  <testcase name="Test the index action returns the correct model" classname="agiletrack.SprintControllerSpec" time="0.309"/>
+  <testcase name="Test the create action returns the correct model" classname="agiletrack.SprintControllerSpec" time="0.013"/>
+  <testcase name="Test the save action correctly persists an instance" classname="agiletrack.SprintControllerSpec" time="0.014">
+    <failure message="Condition not satisfied:&#10;&#10;false&#10;&#10;TODO: Provide a populateValidParams() implementation for this generated test suite&#10;" type="org.spockframework.runtime.ConditionNotSatisfiedError">Condition not satisfied:
+
+false
+
+TODO: Provide a populateValidParams() implementation for this generated test suite
+
+	at agiletrack.SprintControllerSpec.populateValidParams(SprintControllerSpec.groovy:15)
+	at agiletrack.SprintControllerSpec.Test the save action correctly persists an instance(SprintControllerSpec.groovy:51)
+</failure>
+  </testcase>
+  <testcase name="Test that the show action returns the correct model" classname="agiletrack.SprintControllerSpec" time="0.018">
+    <failure message="Condition not satisfied:&#10;&#10;false&#10;&#10;TODO: Provide a populateValidParams() implementation for this generated test suite&#10;" type="org.spockframework.runtime.ConditionNotSatisfiedError">Condition not satisfied:
+
+false
+
+TODO: Provide a populateValidParams() implementation for this generated test suite
+
+	at agiletrack.SprintControllerSpec.populateValidParams(SprintControllerSpec.groovy:15)
+	at agiletrack.SprintControllerSpec.Test that the show action returns the correct model(SprintControllerSpec.groovy:70)
+</failure>
+  </testcase>
+  <testcase name="Test that the edit action returns the correct model" classname="agiletrack.SprintControllerSpec" time="0.028">
+    <failure message="Condition not satisfied:&#10;&#10;false&#10;&#10;TODO: Provide a populateValidParams() implementation for this generated test suite&#10;" type="org.spockframework.runtime.ConditionNotSatisfiedError">Condition not satisfied:
+
+false
+
+TODO: Provide a populateValidParams() implementation for this generated test suite
+
+	at agiletrack.SprintControllerSpec.populateValidParams(SprintControllerSpec.groovy:15)
+	at agiletrack.SprintControllerSpec.Test that the edit action returns the correct model(SprintControllerSpec.groovy:86)
+</failure>
+  </testcase>
+  <testcase name="Test the update action performs an update on a valid domain instance" classname="agiletrack.SprintControllerSpec" time="0.075">
+    <failure message="Condition not satisfied:&#10;&#10;false&#10;&#10;TODO: Provide a populateValidParams() implementation for this generated test suite&#10;" type="org.spockframework.runtime.ConditionNotSatisfiedError">Condition not satisfied:
+
+false
+
+TODO: Provide a populateValidParams() implementation for this generated test suite
+
+	at agiletrack.SprintControllerSpec.populateValidParams(SprintControllerSpec.groovy:15)
+	at agiletrack.SprintControllerSpec.Test the update action performs an update on a valid domain instance(SprintControllerSpec.groovy:116)
+</failure>
+  </testcase>
+  <testcase name="Test that the delete action deletes an instance if it exists" classname="agiletrack.SprintControllerSpec" time="0.029">
+    <failure message="Condition not satisfied:&#10;&#10;false&#10;&#10;TODO: Provide a populateValidParams() implementation for this generated test suite&#10;" type="org.spockframework.runtime.ConditionNotSatisfiedError">Condition not satisfied:
+
+false
+
+TODO: Provide a populateValidParams() implementation for this generated test suite
+
+	at agiletrack.SprintControllerSpec.populateValidParams(SprintControllerSpec.groovy:15)
+	at agiletrack.SprintControllerSpec.Test that the delete action deletes an instance if it exists(SprintControllerSpec.groovy:138)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -6,8 +6,7 @@ class UserStory {
     String description
     Integer pontuation
 
-    static hasMany = [tasks: Task]
-    static hasMany = [sprints: Sprint]
+    static hasMany = [tasks: Task, sprints: Sprint]
     static belongsTo = Sprint
 
     static constraints = {
