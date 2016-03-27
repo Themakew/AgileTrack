@@ -5,7 +5,9 @@ class Epic {
     String name
     String description
 
-	static hasMany = [features: Features]
+    static belongsTo = [theme:InvestimentTheme]
+
+	  static hasMany = [features: Features]
 
     static constraints = {
     }

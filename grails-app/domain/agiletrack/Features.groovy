@@ -5,6 +5,7 @@ class Features {
     String name
     String description
 
+    static belongsTo = [epic:Epic]
     static hasMany = [userStories: UserStory]
 
     static constraints = {
