@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="agiletrack.EpicControllerSpec" tests="7" skipped="0" failures="5" errors="0" timestamp="2016-03-27T17:08:55" hostname="ubuntu" time="0.39">
+  <properties/>
+  <testcase name="Test the index action returns the correct model" classname="agiletrack.EpicControllerSpec" time="0.245"/>
+  <testcase name="Test the create action returns the correct model" classname="agiletrack.EpicControllerSpec" time="0.011"/>
+  <testcase name="Test the save action correctly persists an instance" classname="agiletrack.EpicControllerSpec" time="0.011">
+    <failure message="Condition not satisfied:&#10;&#10;false&#10;&#10;TODO: Provide a populateValidParams() implementation for this generated test suite&#10;" type="org.spockframework.runtime.ConditionNotSatisfiedError">Condition not satisfied:
+
+false
+
+TODO: Provide a populateValidParams() implementation for this generated test suite
+
+	at agiletrack.EpicControllerSpec.populateValidParams(EpicControllerSpec.groovy:15)
+	at agiletrack.EpicControllerSpec.Test the save action correctly persists an instance(EpicControllerSpec.groovy:51)
+</failure>
+  </testcase>
+  <testcase name="Test that the show action returns the correct model" classname="agiletrack.EpicControllerSpec" time="0.019">
+    <failure message="Condition not satisfied:&#10;&#10;false&#10;&#10;TODO: Provide a populateValidParams() implementation for this generated test suite&#10;" type="org.spockframework.runtime.ConditionNotSatisfiedError">Condition not satisfied:
+
+false
+
+TODO: Provide a populateValidParams() implementation for this generated test suite
+
+	at agiletrack.EpicControllerSpec.populateValidParams(EpicControllerSpec.groovy:15)
+	at agiletrack.EpicControllerSpec.Test that the show action returns the correct model(EpicControllerSpec.groovy:70)
+</failure>
+  </testcase>
+  <testcase name="Test that the edit action returns the correct model" classname="agiletrack.EpicControllerSpec" time="0.029">
+    <failure message="Condition not satisfied:&#10;&#10;false&#10;&#10;TODO: Provide a populateValidParams() implementation for this generated test suite&#10;" type="org.spockframework.runtime.ConditionNotSatisfiedError">Condition not satisfied:
+
+false
+
+TODO: Provide a populateValidParams() implementation for this generated test suite
+
+	at agiletrack.EpicControllerSpec.populateValidParams(EpicControllerSpec.groovy:15)
+	at agiletrack.EpicControllerSpec.Test that the edit action returns the correct model(EpicControllerSpec.groovy:86)
+</failure>
+  </testcase>
+  <testcase name="Test the update action performs an update on a valid domain instance" classname="agiletrack.EpicControllerSpec" time="0.064">
+    <failure message="Condition not satisfied:&#10;&#10;false&#10;&#10;TODO: Provide a populateValidParams() implementation for this generated test suite&#10;" type="org.spockframework.runtime.ConditionNotSatisfiedError">Condition not satisfied:
+
+false
+
+TODO: Provide a populateValidParams() implementation for this generated test suite
+
+	at agiletrack.EpicControllerSpec.populateValidParams(EpicControllerSpec.groovy:15)
+	at agiletrack.EpicControllerSpec.Test the update action performs an update on a valid domain instance(EpicControllerSpec.groovy:116)
+</failure>
+  </testcase>
+  <testcase name="Test that the delete action deletes an instance if it exists" classname="agiletrack.EpicControllerSpec" time="0.009">
+    <failure message="Condition not satisfied:&#10;&#10;false&#10;&#10;TODO: Provide a populateValidParams() implementation for this generated test suite&#10;" type="org.spockframework.runtime.ConditionNotSatisfiedError">Condition not satisfied:
+
+false
+
+TODO: Provide a populateValidParams() implementation for this generated test suite
+
+	at agiletrack.EpicControllerSpec.populateValidParams(EpicControllerSpec.groovy:15)
+	at agiletrack.EpicControllerSpec.Test that the delete action deletes an instance if it exists(EpicControllerSpec.groovy:138)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
