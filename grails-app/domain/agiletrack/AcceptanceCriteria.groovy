@@ -4,7 +4,7 @@ class AcceptanceCriteria {
 
     String description
     boolean accepted
-
+    static belongsTo = [tasks:Task]
     static constraints = {
     }
 
