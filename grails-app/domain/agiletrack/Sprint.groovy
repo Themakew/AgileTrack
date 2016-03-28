@@ -5,7 +5,7 @@ class Sprint {
     String sprintID
 
     static hasMany = [userStories: UserStory]
-
+    static belongsTo = UserStory
     static constraints = {
     }
 

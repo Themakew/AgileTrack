@@ -7,7 +7,7 @@ class Task {
     Integer realPontuation
 
     static hasMany = [acceptanceCriteria: AcceptanceCriteria, ownerTasks: OwnerTask]
-
+    static belongsTo = [userStories:UserStory]
     static constraints = {
     }
 

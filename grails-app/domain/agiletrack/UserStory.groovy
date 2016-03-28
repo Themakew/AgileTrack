@@ -7,7 +7,7 @@ class UserStory {
     Integer pontuation
 
     static hasMany = [tasks: Task, sprints: Sprint]
-    static belongsTo = Sprint
+    static belongsTo = [feature:Features]
 
     static constraints = {
     }
