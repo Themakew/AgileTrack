@@ -35,7 +35,8 @@
 
 # others files
 setenv.sh
-/build
+build.gradle
+build/
 /out
 *.iml
 *.ipr
