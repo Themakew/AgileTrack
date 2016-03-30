@@ -4,6 +4,7 @@ class InvestimentTheme {
 
     String name
     String description
+    String initials
 
     static hasMany = [epics: Epic]
 

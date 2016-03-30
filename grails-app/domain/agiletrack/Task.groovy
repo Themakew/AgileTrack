@@ -5,6 +5,7 @@ class Task {
     String description
     Integer plannedPontuation
     Integer realPontuation
+    String initials
 
     static hasMany = [acceptanceCriterias: AcceptanceCriteria, ownerTasks: OwnerTask]
     static belongsTo = [userStories:UserStory]

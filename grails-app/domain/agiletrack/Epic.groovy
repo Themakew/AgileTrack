@@ -4,6 +4,7 @@ class Epic {
 
     String name
     String description
+    String initials
 
     static belongsTo = [theme:InvestimentTheme]
 
