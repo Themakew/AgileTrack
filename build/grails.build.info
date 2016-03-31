@@ -1,6 +1,0 @@
-#Sun, 27 Mar 2016 14:08:29 -0300
-
-grails.env=production
-info.app.name=AgileTrack
-info.app.version=0.1
-info.app.grailsVersion=3.1.1
