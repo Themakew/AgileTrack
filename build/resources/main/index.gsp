@@ -53,6 +53,7 @@
 
     <div id="content" role="main">
         <section class="row colset-2-its">
+            <a href="http://designshack.net/" class="button">Click Me</a>
             <h1>Welcome to Grails</h1>
 
             <p>
