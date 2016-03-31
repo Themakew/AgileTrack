@@ -17,7 +17,6 @@
         </div> -->
         <div>
           Hello
-          ${result}
           <g:each var="row" in="${result}">
               ${result}
           </g:each>

@@ -51,11 +51,9 @@ class TrackingController {
 
 
     def index(Integer max) {
-        def rows = requirementsForInvestimentThemeID()
         params.max = Math.min(max ?: 10, 100)
         respond Tracking.list(params), model:[trackingCount: Tracking.count()]
-        def result = [:]
-        [result:rows]
+        [result:requirementsForInvestimentThemeID()]
     }
 
     def show(Tracking tracking) {
