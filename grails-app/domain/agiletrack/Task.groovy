@@ -10,6 +10,7 @@ class Task {
     static hasMany = [acceptanceCriterias: AcceptanceCriteria, ownerTasks: OwnerTask]
     static belongsTo = [userStories:UserStory]
     static constraints = {
+      description blank:false
     }
 
     String toString() {
