@@ -11,6 +11,7 @@
     <asset:stylesheet src="application.css"/>
 
     <g:layoutHead/>
+
 </head>
 <body>
 
@@ -26,9 +27,10 @@
                 <a class="navbar-brand" href="/#">
                     <i class="fa grails-icon">
                         <asset:image src="grails-cupsonly-logo-white.svg"/>
-                    </i> Grails
+                    </i> AgileTrack
                 </a>
             </div>
+
             <div class="navbar-collapse collapse" aria-expanded="false" style="height: 0.8px;">
                 <ul class="nav navbar-nav navbar-right">
                     <g:pageProperty name="page.nav" />
@@ -44,7 +46,6 @@
     <div id="spinner" class="spinner" style="display:none;">
         <g:message code="spinner.alt" default="Loading&hellip;"/>
     </div>
-
     <asset:javascript src="application.js"/>
 
 </body>

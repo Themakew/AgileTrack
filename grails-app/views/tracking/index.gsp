@@ -39,7 +39,11 @@
             </li>
         </div>
 
-        <a href="http://designshack.net/" class="button">Click Me</a>
+        <g:form name="testForm" controller="tracking" action="gettextfield">
+                    <g:textField name="textoRecebido" value="${textoRecebido}"> </g:textField>
+                    <g:submitButton name="Submit" value="Submit"></g:submitButton>
+                </g:form>
+
         <a href="#list-tracking" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
         <!-- <div class="nav" role="navigation">
             <ul>
@@ -64,8 +68,36 @@
                         <table>
                           <tr>
                             <th>
-                              <a href="/features/show/${row.feature_id}">Feature ${row.feat_initials} - ${row.feature_id}</a>
+                              <a href="/features/show/${row.feature_id}">Feature ${row.feature_initials} - ${row.feature_id}</a>
                             </th>
+                            <td>
+                              <table>
+                                <th>
+                                  <a href="/userStory/show/${row.user_story_id}"> User Story ${row.user_story_initials} - ${row.user_story_id}<br>
+                                  Pontuation: ${row.user_story_pontuation} </a> <br>
+                                  <a href="/sprint/show/${row.sprint_id}"> Sprint : ${row.sprint_num} </a>
+                                </th>
+                                <td>
+                                  <table>
+                                    <th>
+                                      <a href="/task/show/${row.task_id}"> Task ${row.task_initials} - ${row.task_id} </a> <br>
+                                    </th>
+                                    <td>
+                                      <table>
+
+                                        <th>
+                                          <g:if test="${row.acceptance_criteria_isAccepted}">
+                                            <a style="color:green" href="/acceptanceCriteria/show/${row.acceptance_criteria_id}">Acceptance Criteria ${row.acceptance_criteria_initials} - ${row.acceptance_criteria_id} </a>
+                                          </g:if>
+                                          <g:else>
+                                            <a style="color:red" href="/acceptanceCriteria/show/${row.acceptance_criteria_id}">Acceptance Criteria ${row.acceptance_criteria_initials} - ${row.acceptance_criteria_id} </a>                                          </g:else>
+                                        </th>
+                                      </table>
+                                    </td>
+                                  </table>
+                                </td>
+                              </table>
+                            </td>
                           </tr>
                         </table>
                       </td>
