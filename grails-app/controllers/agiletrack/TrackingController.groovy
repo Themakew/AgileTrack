@@ -41,19 +41,22 @@ class TrackingController {
         rowMap["owner_id"] = row.owner_id
         rowMap["owner_name"] = row.owner_name
         rowMap["owner_initials"] = row.owner_initials
-        println rowMap
         rows.add(rowMap)
       })
 
-      println rows
+      // println rows
       return rows
     }
 
 
     def index(Integer max) {
-        params.max = Math.min(max ?: 10, 100)
-        respond Tracking.list(params), model:[trackingCount: Tracking.count()]
-        [result:requirementsForInvestimentThemeID()]
+        // params.max = Math.min(max ?: 10, 100)
+        // respond Tracking.list(params), model:[trackingCount: Tracking.count()]
+        // def result = [:]
+        // result['row'] =
+        // println result
+        // respond result
+        [tracking:requirementsForInvestimentThemeID()]
     }
 
     def show(Tracking tracking) {

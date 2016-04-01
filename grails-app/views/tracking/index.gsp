@@ -16,9 +16,8 @@
             </ul>
         </div> -->
         <div>
-          Hello
-          <g:each var="row" in="${result}">
-              ${result}
+          <g:each var="row" in="${tracking}">
+            ${row}
           </g:each>
         </div>
 
